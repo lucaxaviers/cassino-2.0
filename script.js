@@ -78,8 +78,8 @@ spinBtn.addEventListener("click", () => {
         resultDiv.textContent = `Parabéns! Você ganhou ${bonusWin} créditos!`;
         resultDiv.style.color = "#4CAF50"; // verde pra vitória
       } else {
-        // Se não, só agradece por jogar
-        resultDiv.textContent = "Valeu por jogar! Se divirta.";
+        // Se não
+        resultDiv.textContent = "Tigrinho não pagou!";
         resultDiv.style.color = "#ffb800"; // amarelo
       }
 
