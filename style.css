@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
   box-sizing: border-box;
 }
@@ -13,8 +12,6 @@ body {
   min-height: 100vh;
   padding: 20px;
 }
-
-/* Container */
 .container {
   max-width: 400px;
   width: 100%;
@@ -24,8 +21,6 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   text-align: center;
 }
-
-/* Título */
 h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
@@ -33,8 +28,6 @@ h1 {
   color: #111;
   letter-spacing: 1.5px;
 }
-
-/* Saldo */
 .balance {
   font-weight: 600;
   font-size: 1.25rem;
@@ -42,15 +35,12 @@ h1 {
   user-select: none;
   color: #444;
 }
-
-/* Caça-níquel */
 .slot-machine {
   display: flex;
   justify-content: center;
   gap: 15px;
   margin-bottom: 25px;
 }
-
 .reel {
   font-size: 70px;
   width: 90px;
@@ -64,8 +54,6 @@ h1 {
   color: #222;
   box-shadow: inset 0 0 5px #ccc;
 }
-
-/* Botão */
 #spinBtn {
   background-color: #333;
   color: #fff;
@@ -78,17 +66,13 @@ h1 {
   transition: background-color 0.25s ease;
   user-select: none;
 }
-
 #spinBtn:hover:not(:disabled) {
   background-color: #555;
 }
-
 #spinBtn:disabled {
   background-color: #aaa;
   cursor: not-allowed;
 }
-
-/* Resultado */
 #result {
   margin-top: 30px;
   font-size: 1.3rem;
@@ -96,8 +80,6 @@ h1 {
   color: #333;
   user-select: none;
 }
-
-/* Aviso */
 .notice {
   margin-top: 40px;
   font-size: 0.85rem;
@@ -105,8 +87,6 @@ h1 {
   line-height: 1.4;
   user-select: none;
 }
-
-/* QR Pix fixo lateral */
 .qr-container {
   position: fixed;
   top: 50%;
@@ -120,21 +100,17 @@ h1 {
   user-select: none;
   max-width: 130px;
 }
-
 .qr-container img {
   width: 110px;
   height: 110px;
   border-radius: 8px;
   margin-bottom: 8px;
 }
-
 .qr-container span {
   font-weight: 600;
   color: #222;
   font-size: 1rem;
 }
-
-/* Responsivo */
 @media (max-width: 600px) {
   body {
     flex-direction: column;
