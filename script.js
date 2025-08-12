@@ -17,7 +17,7 @@ const bonusWin = 50;
 
 spinBtn.addEventListener("click", () => {
   if(balance < costPerPlay) {
-    resultDiv.textContent = "Saldo baixo. Faça uma doação para continuar jogando!";
+    resultDiv.textContent = "F5 para recarregar o saldo";
     resultDiv.style.color = "#f55";
     return;
   }
