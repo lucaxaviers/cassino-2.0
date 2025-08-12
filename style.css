@@ -1,0 +1,157 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  max-width: 400px;
+  width: 100%;
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Título */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #111;
+  letter-spacing: 1.5px;
+}
+
+/* Saldo */
+.balance {
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-bottom: 25px;
+  user-select: none;
+  color: #444;
+}
+
+/* Caça-níquel */
+.slot-machine {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.reel {
+  font-size: 70px;
+  width: 90px;
+  height: 90px;
+  background: #eee;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  color: #222;
+  box-shadow: inset 0 0 5px #ccc;
+}
+
+/* Botão */
+#spinBtn {
+  background-color: #333;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 12px 35px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  user-select: none;
+}
+
+#spinBtn:hover:not(:disabled) {
+  background-color: #555;
+}
+
+#spinBtn:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+/* Resultado */
+#result {
+  margin-top: 30px;
+  font-size: 1.3rem;
+  min-height: 30px;
+  color: #333;
+  user-select: none;
+}
+
+/* Aviso */
+.notice {
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.4;
+  user-select: none;
+}
+
+/* QR Pix fixo lateral */
+.qr-container {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  background: #fff;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  user-select: none;
+  max-width: 130px;
+}
+
+.qr-container img {
+  width: 110px;
+  height: 110px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.qr-container span {
+  font-weight: 600;
+  color: #222;
+  font-size: 1rem;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+  .container {
+    margin: 20px auto 60px;
+  }
+  .qr-container {
+    position: static;
+    transform: none;
+    margin: 20px auto 0;
+    box-shadow: none;
+    background: transparent;
+    padding: 0;
+  }
+  .qr-container img {
+    width: 90px;
+    height: 90px;
+  }
+}
