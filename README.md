@@ -1,4 +1,4 @@
-# 🎰 Cassino do Xavier - Caça-níquel Educativo
+# 🎰 Cassino do Xaxa - Caça-níquel Educativo
 
 Um **jogo de caça-níquel online** feito com **HTML, CSS e JavaScript**.  
 Totalmente educativo e para diversão: não paga prêmios reais, mas permite experimentar mecânicas de cassino de forma segura.
