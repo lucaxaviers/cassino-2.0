@@ -1,6 +1,6 @@
 # 🎰 Cassino do Xaxa - Caça-níquel Educativo
 
-Acesse o jogo online: [Cassino do Xavier 2.0](https://lucaxaviers.github.io/cassino-2.0/)
+Acesse o jogo online: [CLIQUE AQUI](https://lucaxaviers.github.io/cassino-2.0/)
 
 Um **jogo de caça-níquel online** feito com **HTML, CSS e JavaScript**.  
 Totalmente educativo e para diversão: não paga prêmios reais, mas permite experimentar mecânicas de cassino de forma segura.
